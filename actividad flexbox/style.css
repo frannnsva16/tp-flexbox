@@ -1,0 +1,22 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content:
+        center;
+    padding: 32px;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 220px;
+    max-width: 280px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+img {
+    border-radius: 100%;
+}
